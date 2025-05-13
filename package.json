@@ -16,9 +16,9 @@
   },
   "sideEffects": false,
   "type": "module",
-  "version": "0.155.2-3-x",
+  "version": "0.155.2-4-x",
   "versions": {
-    "git": "0.155.2-3-x",
+    "git": "0.155.2-4-x",
     "npm": "0.155.1"
   },
   "workspaces": [
@@ -78,6 +78,7 @@
     "@types/react-router-dom": "^5.3.3",
     "@types/store": "^2.0.5",
     "concurrently": "^8.2.2",
+    "cross-spawn": "^7.0.6",
     "devtron": "^1.4.0",
     "dnslink-cloudflare": "^3.0.0",
     "electron": "28.0.0",
@@ -91,14 +92,14 @@
     "source-map-explorer": "^2.5.3"
   },
   "resolutions": {
+    "@gluwa/hw-ledger": "git+https://github.com/gluwa/polkadot-hw-ledger.git#main",
+    "@gluwa/networks": "git+https://github.com/gluwa/polkadot-networks.git#main",
     "@polkadot/api": "^15.9.2",
     "@polkadot/api-augment": "^15.9.2",
     "@polkadot/api-base": "^15.9.2",
     "@polkadot/api-contract": "^15.9.2",
     "@polkadot/api-derive": "^15.9.2",
-    "@polkadot/hw-ledger": "^13.4.4",
     "@polkadot/keyring": "^13.4.4",
-    "@polkadot/networks": "^13.4.4",
     "@polkadot/phishing": "^0.25.9",
     "@polkadot/rpc-augment": "^15.9.2",
     "@polkadot/rpc-core": "^15.9.2",

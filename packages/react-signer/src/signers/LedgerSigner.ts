@@ -7,7 +7,7 @@
 
 import type { ApiPromise } from '@polkadot/api';
 import type { Signer, SignerResult } from '@polkadot/api/types';
-import type { Ledger, LedgerGeneric } from '@polkadot/hw-ledger';
+import type { Ledger, LedgerGeneric } from '@gluwa/hw-ledger';
 import type { Registry, SignerPayloadJSON } from '@polkadot/types/types';
 
 import { settings } from '@polkadot/ui-settings';

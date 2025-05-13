@@ -3,7 +3,7 @@
 
 import type { HexString } from '@polkadot/util/types';
 
-import { knownGenesis } from '@polkadot/networks/defaults';
+import { knownGenesis } from '@gluwa/networks/defaults';
 import { assert, BN } from '@polkadot/util';
 
 export function getGenesis (name: string): HexString {

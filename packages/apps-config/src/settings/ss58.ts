@@ -4,7 +4,7 @@
 import type { TFunction } from '../types.js';
 import type { Option } from './types.js';
 
-import { selectableNetworks } from '@polkadot/networks';
+import { selectableNetworks } from '@gluwa/networks';
 
 const networks = selectableNetworks
   .map(({ displayName, network, prefix }) => ({

@@ -10,8 +10,8 @@ import type { TransportType } from '@polkadot/hw-ledger-transports/types';
 
 import { useCallback, useMemo } from 'react';
 
-import { Ledger, LedgerGeneric } from '@polkadot/hw-ledger';
-import { knownGenesis, knownLedger } from '@polkadot/networks/defaults';
+import { Ledger, LedgerGeneric } from '@gluwa/hw-ledger';
+import { knownGenesis, knownLedger } from '@gluwa/networks/defaults';
 import { settings } from '@polkadot/ui-settings';
 import { assert } from '@polkadot/util';
 

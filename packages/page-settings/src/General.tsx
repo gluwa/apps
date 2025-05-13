@@ -7,7 +7,7 @@ import type { SettingsStruct } from '@polkadot/ui-settings/types';
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
 
 import { createLanguages, createSs58 } from '@polkadot/apps-config';
-import { allNetworks } from '@polkadot/networks';
+import { allNetworks } from '@gluwa/networks';
 import { Button, Dropdown, MarkWarning } from '@polkadot/react-components';
 import { useApi, useIpfs, useLedger } from '@polkadot/react-hooks';
 import { settings } from '@polkadot/ui-settings';

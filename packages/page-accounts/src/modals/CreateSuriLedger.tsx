@@ -3,7 +3,7 @@
 
 import React, { useEffect, useRef, useState } from 'react';
 
-import { selectableNetworks } from '@polkadot/networks';
+import { selectableNetworks } from '@gluwa/networks';
 import { Dropdown, MarkError, Modal } from '@polkadot/react-components';
 
 import { useTranslation } from '../translate.js';

@@ -6,7 +6,7 @@
 /* eslint-disable deprecation/deprecation */
 
 import type { ApiPromise } from '@polkadot/api';
-import type { Ledger, LedgerGeneric } from '@polkadot/hw-ledger';
+import type { Ledger, LedgerGeneric } from '@gluwa/hw-ledger';
 
 import React, { useCallback, useRef, useState } from 'react';
 
