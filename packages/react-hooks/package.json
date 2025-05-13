@@ -14,7 +14,7 @@
   },
   "sideEffects": false,
   "type": "module",
-  "version": "0.155.2-4-x",
+  "version": "0.155.2-3-x",
   "dependencies": {
     "@gluwa/hw-ledger": "git+https://github.com/gluwa/polkadot-hw-ledger.git#main",
     "@polkadot/hw-ledger-transports": "^13.4.4",
