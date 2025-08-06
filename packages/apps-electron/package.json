@@ -29,7 +29,7 @@
     "electron-builder": "24.10.0",
     "electron-builder-notarize": "^1.5.1",
     "html-webpack-plugin": "^5.5.4",
-    "tmp": "^0.2.1"
+    "tmp": "^0.2.4"
   },
   "peerDependencies": {
     "webpack": "*"
